@@ -7,3 +7,4 @@ Practice Repository for learning Web Scraping using Python
 
 3. Crawling an entire Wikipedia page and all the internal links (site_crawler.py)
 
+4. Crawler for crawling NY Times and Brookings Website for latest news simultaneosly ( class_crawl.py )

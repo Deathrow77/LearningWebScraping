@@ -14,8 +14,8 @@ def getTitle(url):
         return bs.body.h1
     except AttributeError as e:
         print(e)
-title = getTitle("http://www.pythonscraping.com/pages/page1.html")
-if title==None:
+t = getTitle("http://www.pythonscraping.com/pages/page1.html")
+if t==None:
     print("Page not found !!")
 else:
-    print(title)
+    print(t)
